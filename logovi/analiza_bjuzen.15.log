@@ -1,0 +1,115 @@
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤   BJUZENOV ALGORITAM   ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 1 (K = 2) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 137.3471 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+                Procesor |          0.5461 |        109.2124 |          1.1803
+        Sistemski disk 0 |          0.1966 |         16.3819 |          0.2442
+        Sistemski disk 1 |          0.2457 |         16.3819 |          0.3249
+*      Korisnički disk 0 |          0.9283 |         46.4153 |          6.6253
+       Korisnički disk 1 |          0.9283 |         46.4153 |          6.6253
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 2 (K = 3) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 100.7410 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+                Procesor |          0.7445 |        148.8966 |          2.5218
+        Sistemski disk 0 |          0.2680 |         22.3345 |          0.3637
+        Sistemski disk 1 |          0.3350 |         22.3345 |          0.4987
+*      Korisnički disk 0 |          0.8437 |         42.1874 |          3.8719
+       Korisnički disk 1 |          0.8437 |         42.1874 |          3.8719
+       Korisnički disk 2 |          0.8437 |         42.1874 |          3.8719
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 3 (K = 4) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 86.1135 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+*               Procesor |          0.8709 |        174.1888 |          4.2103
+        Sistemski disk 0 |          0.3135 |         26.1283 |          0.4518
+        Sistemski disk 1 |          0.3919 |         26.1283 |          0.6333
+       Korisnički disk 0 |          0.7403 |         37.0151 |          2.4261
+       Korisnički disk 1 |          0.7403 |         37.0151 |          2.4261
+       Korisnički disk 2 |          0.7403 |         37.0151 |          2.4261
+       Korisnički disk 3 |          0.7403 |         37.0151 |          2.4261
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 4 (K = 5) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 80.1850 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+*               Procesor |          0.9353 |        187.0675 |          5.6804
+        Sistemski disk 0 |          0.3367 |         28.0601 |          0.5018
+        Sistemski disk 1 |          0.4209 |         28.0601 |          0.7128
+       Korisnički disk 0 |          0.6360 |         31.8015 |          1.6210
+       Korisnički disk 1 |          0.6360 |         31.8015 |          1.6210
+       Korisnički disk 2 |          0.6360 |         31.8015 |          1.6210
+       Korisnički disk 3 |          0.6360 |         31.8015 |          1.6210
+       Korisnički disk 4 |          0.6360 |         31.8015 |          1.6210
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 5 (K = 6) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 77.7023 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+*               Procesor |          0.9652 |        193.0444 |          6.7341
+        Sistemski disk 0 |          0.3475 |         28.9567 |          0.5271
+        Sistemski disk 1 |          0.4343 |         28.9567 |          0.7544
+       Korisnički disk 0 |          0.5470 |         27.3480 |          1.1641
+       Korisnički disk 1 |          0.5470 |         27.3480 |          1.1641
+       Korisnički disk 2 |          0.5470 |         27.3480 |          1.1641
+       Korisnički disk 3 |          0.5470 |         27.3480 |          1.1641
+       Korisnički disk 4 |          0.5470 |         27.3480 |          1.1641
+       Korisnički disk 5 |          0.5470 |         27.3480 |          1.1641
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 6 (K = 7) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 76.5759 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+*               Procesor |          0.9794 |        195.8840 |          7.4529
+        Sistemski disk 0 |          0.3526 |         29.3826 |          0.5400
+        Sistemski disk 1 |          0.4407 |         29.3826 |          0.7762
+       Korisnički disk 0 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 1 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 2 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 3 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 4 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 5 |          0.4757 |         23.7859 |          0.8901
+       Korisnički disk 6 |          0.4757 |         23.7859 |          0.8901
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ TEST 7 (K = 8) ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+stepen multiprogramiranja: 15
+vreme odaziva sitema: 76.0135 ms
+
+              komponenta |    iskorišćenje | protok [proc/s] |  prosek poslova
+==============================================================================
+*               Procesor |          0.9867 |        197.3334 |          7.9507
+        Sistemski disk 0 |          0.3552 |         29.6000 |          0.5470
+        Sistemski disk 1 |          0.4440 |         29.6000 |          0.7883
+       Korisnički disk 0 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 1 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 2 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 3 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 4 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 5 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 6 |          0.4193 |         20.9667 |          0.7143
+       Korisnički disk 7 |          0.4193 |         20.9667 |          0.7143
